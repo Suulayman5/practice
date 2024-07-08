@@ -1,9 +1,9 @@
-// src/App.js
+// src/App.tsx
 import React from 'react';
 import Login from './components/Login';
-import './App.css'
+import './App.css';
 
-const App = () => {
+const App: React.FC = () => {
   return (
     <div>
       <Login />
@@ -12,5 +12,4 @@ const App = () => {
 };
 
 export default App;
-
 
